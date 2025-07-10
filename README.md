@@ -18,7 +18,7 @@ This project demonstrates a real-world Data Engineering pipeline from end-to-end
 
 ---
 
-## 🧰 Tech Stack & Tools
+## Tech Stack & Tools
 
 - Python 3.13+
 - `requests` for API calls
@@ -30,7 +30,7 @@ This project demonstrates a real-world Data Engineering pipeline from end-to-end
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 
@@ -139,18 +139,18 @@ Add the line:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Feel free to open issues or pull requests.
 
 ---
 
-## 📜 License
+## License
 
 MIT License © 2025 Joan Ovalles
 
 ---
 
-## 👤 Author
+## Author
 
 Joan Ovalles | [GitHub](https://github.com/joanovallesr) | [LinkedIn](https://linkedin.com/in/joanovallesr)
