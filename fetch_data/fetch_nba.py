@@ -43,7 +43,20 @@ def save_games(data):
     except Exception as e:
         logger.error(f"Failed to save NBA data: {e}")
 
+def display_nba_scores(data):
+    if not data:
+        print("No NBA data available.")
+        return
+    games = data.get("response", [])
+    for game in games:
+        home = game["teams"]["home"]["name"]
+        away = game["teams"]["visitors"]["name"]
+        home_score = game["scores"]["home"]["points"]
+        away_score = game["scores"]["visitors"]["points"]
+        print(f"{away} {away_score}, {home} {home_score}")
+
 if __name__ == "__main__":
     data = fetch_nba_scores()
     if data:
         save_games(data)
+        display_nba_scores(data)
