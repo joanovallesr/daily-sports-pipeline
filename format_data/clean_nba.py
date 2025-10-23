@@ -48,9 +48,9 @@ def clean_nba_data(raw_data):
             continue
 
     if not lines:
-        return "🏀 NBA Scores:\n No results available."
+        return " NBA Scores:\n No results available."
 
-    return "🏀 NBA Scores:\n" + "\n".join(lines)
+    return " NBA Scores:\n" + "\n".join(lines)
 
 if __name__ == "__main__":
     raw_file = "raw_data/raw_nba.json"
