@@ -43,9 +43,9 @@ def clean_mlb_data(raw_data):
             continue
 
     if not lines:
-        return "⚾ MLB Scores:\n No results available."
+        return "MLB Scores:\n No results available."
 
-    return "⚾ MLB Scores:\n" + "\n".join(lines)
+    return "MLB Scores:\n" + "\n".join(lines)
 
 if __name__ == "__main__":
     raw_file = "raw_data/raw_mlb.json"
