@@ -70,10 +70,10 @@ if __name__ == "__main__":
     data = fetch_mlb_scores()
 
     if data:
-        # ✅ Extract just the "games" list from the nested "dates"
+        # Extract just the "games" list from the nested "dates"
         games = data.get("dates", [{}])[0].get("games", [])
 
-        # ✅ Save only {"games": [...]}
+        # Save only {"games": [...]}
         try:
             with open("raw_data/raw_mlb.json", "w") as f:
                 json.dump({"games": games}, f, indent=2)
