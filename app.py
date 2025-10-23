@@ -11,7 +11,7 @@ def load_summary(date_str):
         return None
 
 st.set_page_config(page_title="Daily Sports Summary", layout="centered")
-st.title("📅 Daily Sports Summary")
+st.title("Daily Sports Summary")
 
 selected_date = st.date_input("Select a date", datetime.now())
 date_str = selected_date.strftime("%Y-%m-%d")
