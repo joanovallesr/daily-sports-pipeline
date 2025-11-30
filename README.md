@@ -64,7 +64,8 @@ daily-pipeline/
    ```bash
    git clone https://github.com/joanovallesr/daily-pipeline.git
    cd daily-pipeline
-````
+   ```
+
 
 2. Create and activate virtual environment:
 
