@@ -87,7 +87,7 @@ daily-pipeline/
 
 ---
 
-## 🏃‍♂️ Running the Pipeline
+## Running the Pipeline
 
 * Run manually:
 
