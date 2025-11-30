@@ -37,22 +37,22 @@ This project demonstrates a real-world Data Engineering pipeline from end-to-end
 daily-pipeline/
 ├── app.py                    # Streamlit app for summary visualization
 ├── fetch\_data/
-│   ├── fetch\_mlb.py          # Fetch MLB scores script
-│   └── fetch\_nba.py          # Fetch NBA scores script
+│   ├── fetch\_mlb.py         # Fetch MLB scores script
+│   └── fetch\_nba.py         # Fetch NBA scores script
 ├── format\_data/
-│   ├── clean\_mlb.py          # Clean MLB raw data script
-│   └── clean\_nba.py          # Clean NBA raw data script
+│   ├── clean\_mlb.py         # Clean MLB raw data script
+│   └── clean\_nba.py         # Clean NBA raw data script
 ├── logs/                     # Log files generated during runs
 ├── raw\_data/
-│   ├── raw\_mlb.json          # Raw MLB JSON data
-│   └── raw\_nba.json          # Raw NBA JSON data
-├── run\_pipeline.sh           # Bash script to run the whole pipeline
+│   ├── raw\_mlb.json         # Raw MLB JSON data
+│   └── raw\_nba.json         # Raw NBA JSON data
+├── run\_pipeline.sh          # Bash script to run the whole pipeline
 ├── utils/
 │   └── logger.py             # Centralized logging setup
 ├── venv/                     # Python virtual environment
 ├── requirements.txt          # Project dependencies
 ├── README.md                 # This file
-└── load\_env.py               # Loads environment variables
+└── load\_env.py              # Loads environment variables
 
 ````
 
@@ -62,7 +62,7 @@ daily-pipeline/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/joanovallesr/daily-pipeline.git
+   git clone https://github.com/joanovallesr/daily-sports-pipeline.git
    cd daily-pipeline
    ```
 
